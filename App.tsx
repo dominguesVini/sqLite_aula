@@ -1,12 +1,9 @@
 import { StyleSheet, View } from "react-native";
 import Home from "./app/Home";
+import React from "react";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Home />
-    </View>
-  );
+  return <Home />
 }
 
 const styles = StyleSheet.create({
